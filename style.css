@@ -2,7 +2,7 @@ body{
     background: #8E2DE2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+color:#9beb38
 }
 
 #LogoAp{
@@ -15,7 +15,7 @@ a img{
 }
 .col{
     margin:0;
-    padding:0;
+    
 }
 
 .container{
@@ -32,6 +32,22 @@ a img{
     float: right;
     border-radius:10px;
 }
+
 #Banner{
-    width: 100%;
+    padding-left: 0;
+    padding-right:0;
+}
+#Perfil{
+    width: 90%;
+    border-radius:100%;
+    margin-top: -10%;
+    margin-left: 7%;
+   
+}
+.col-8{
+    text-align: center;
+}
+
+#Titulo{
+    font-size:3em
 }
