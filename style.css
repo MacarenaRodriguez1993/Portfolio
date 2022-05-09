@@ -21,6 +21,7 @@ a img{
 .container{
     margin-left:0;
     max-width: 1350px;
+    
 }
 .btn{
     background-color: #9beb38;
@@ -51,16 +52,23 @@ a img{
 #Titulo{
     font-size:3em
 }
-#TituloExperiencias{
+#ExperienciasLaborales{
     margin-top:35px;
+    border-top: 2px solid #310a55;
+  
 }
 .experiencias{
    margin:5px;
-   margin-top:15px;
+   margin-bottom: 15px;
 }
 #ImagenExperiencia1{
     width: 70%;
     
+}
+#Educacion{
+    border-top: 2px solid #310a55;
+   margin-top: 25px;
+   margin-bottom: 10px;
 }
 .col-5{
     text-align: center;
@@ -68,14 +76,18 @@ a img{
 #ImagenEducacion1{
     width: 70%;
 }
+
 .skills{
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    
+    justify-content: center;
 }
-.colSkills{
-    margin-left: 7%;
+#Hard{
+    border-top: 2px solid #310a55;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
+
 .card{
     position: relative;
     width: 200px;
@@ -89,6 +101,7 @@ a img{
     text-align: center;
     transition: 0.5s;
     margin-top: 23px;
+    margin: 10px;
 }
 .card:hover{
     transform: translateY(-10px);
@@ -173,6 +186,18 @@ svg circle:nth-child(2){
     stroke-dashoffset: calc(440 - (440 * 50)/100);
     stroke: #7dda0c;
 }
+.card:nth-child(5) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 100)/100);
+    stroke: #7dda0c;
+}
+.card:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70)/100);
+    stroke: #7dda0c;
+}
+.card:nth-child(7) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90)/100);
+    stroke: #7dda0c;
+}
 @media only screen and (max-width:600px)
 {
     .porcentaje{
@@ -204,6 +229,24 @@ svg circle:nth-child(2){
         margin-top: 20px;
     }
 }
+#Proyectos{
+    border-top: 2px solid #310a55;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 #Proyecto1{
     width: 70%;
+}
+section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+footer{
+    margin-top:15px;
+    border-top: 2px solid #310a55;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 0;
 }
